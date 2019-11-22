@@ -1,31 +1,40 @@
-body { 
-    background: url(../img/background.jpg) no-repeat center center fixed; 
+body {
+    background: url(../img/background.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     color: white;
-  }
+}
 
-  #profile-image > img {
+#profile-image>img {
     border: solid 2px white;
-  }
+}
 
-  #buttons {
+#buttons>i {
     color: white;
-  }
+}
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    color: #BFB59E;
+}
+
 /* Small Screens */
-@media (max-width: 576px) { 
+@media (max-width: 576px) {
     #profile-image {
         margin-top: 10%;
         display: inline-block;
-        }
+    }
 
-        #profile-image > img {
+    #profile-image>img {
         border-radius: 50%;
         width: 120px;
         height: 120px;
-        }
+    }
 
     .intro {
         margin-top: 5%;
@@ -39,7 +48,7 @@ body {
     }
 
     #word2 {
-    display: none;
+        display: none;
     }
 
     #word3 {
@@ -56,14 +65,15 @@ body {
         padding: 25px 25px 25px 25px;
     }
 
-    #buttons > i {
+    #buttons>i {
         margin-left: 10px;
         margin-right: 10px;
     }
 }
+
 /* Medium Screens */
 
-   @media (min-width: 768px) { 
+@media (min-width: 768px) {
 
     .navbar-brand {
         font-size: 2.0em;
@@ -76,34 +86,34 @@ body {
     #profile-image {
         margin-top: 10%;
         display: inline-block;
-        }
-    
-        #profile-image > img {
+    }
+
+    #profile-image>img {
         border-radius: 50%;
         width: 250px;
         height: 250px;
-        }
-    
+    }
+
     .intro {
         margin-top: 5%;
         margin-left: 5%;
         margin-right: 15%;
         width: 120px;
     }
-    
+
     #word1 {
         display: none;
     }
-    
+
     #word2 {
-     display: none;
+        display: none;
     }
-    
+
     #word3 {
         display: none;
     }
-    
-    
+
+
     #buttons {
         position: absolute;
         bottom: 0;
@@ -112,14 +122,15 @@ body {
         display: inline-block;
         padding: 25px 25px 25px 25px;
     }
-    
-    #buttons > i {
+
+    #buttons>i {
         margin-left: 10px;
         margin-right: 10px;
     }
-   }
+}
+
 /* Large Screens */
-@media (min-width: 992px) { 
+@media (min-width: 992px) {
     .navbar-brand {
         font-size: 2.0em;
     }
@@ -131,21 +142,21 @@ body {
     #profile-image {
         margin-top: 10%;
         display: inline-block;
-        }
-    
-        #profile-image > img {
+    }
+
+    #profile-image>img {
         border-radius: 50%;
         width: 250px;
         height: 250px;
-        }
-    
+    }
+
     .intro {
         margin-top: 5%;
         margin-left: 5%;
         margin-right: 10%;
         width: 250px;
     }
-    
+
     #line-one {
         font-size: 45px !important;
     }
@@ -153,16 +164,16 @@ body {
     #word1 {
         display: none;
     }
-    
+
     #word2 {
-     display: none;
+        display: none;
     }
-    
+
     #word3 {
         display: none;
     }
-    
-    
+
+
     #buttons {
         position: absolute;
         bottom: 0;
@@ -171,8 +182,8 @@ body {
         display: inline-block;
         padding: 25px 25px 25px 25px;
     }
-    
-    #buttons > i {
+
+    #buttons>i {
         margin-left: 10px;
         margin-right: 10px;
     }
