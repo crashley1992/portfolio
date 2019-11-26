@@ -1,5 +1,7 @@
 body {
     background-color: #605C58;
+    /* Font type */
+    font-family: 'Montserrat', sans-serif;
 }
 
 .project-gallery {

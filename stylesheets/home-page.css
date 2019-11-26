@@ -5,6 +5,9 @@ body {
     -o-background-size: cover;
     background-size: cover;
     color: white;
+
+    /* Font type */
+    font-family: 'Montserrat', sans-serif;
 }
 
 #profile-image>img {
