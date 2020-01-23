@@ -5,19 +5,21 @@ import './nav-tabs.css'
 
 const NavTabs = () => {
     return (
-      <Navbar expand="lg">
-      <Navbar.Brand href="/">
-      Ashley Clarke</Navbar.Brand>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav">
-          <Nav>
-          <Nav.Link href="/login">About</Nav.Link>
-          </Nav>
-          <Nav>
-          <Nav.Link href="/signup">Portfolio</Nav.Link>
-          </Nav>
-          </Navbar.Collapse>
-</Navbar>
+        <Navbar expand="lg">
+            <Navbar.Brand href="/">
+            Ashley Clarke</Navbar.Brand>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav">
+            <Nav>
+                <Nav.Link href="/">Home</Nav.Link>                </Nav>
+            <Nav>
+                <Nav.Link href="/about">About</Nav.Link>
+            </Nav>
+            <Nav>
+                <Nav.Link href="/portfolio">Portfolio</Nav.Link>
+            </Nav>
+                </Navbar.Collapse>
+        </Navbar>
     )
 }
 
