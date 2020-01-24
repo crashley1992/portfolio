@@ -1,7 +1,6 @@
 @media (min-width: 300px) { 
     .gallery {
         display: inline-block;
-        border: solid black 2px;
         width: 100%;
         text-align: center;
     }
@@ -10,7 +9,7 @@
         width: 250px;
         height: 250px;
         margin-left: 5%;
-        margin-top: 5%;
+        margin-top: 2%;
         border-radius: 5%;
     }    
 }
@@ -18,7 +17,6 @@
 @media (min-width: 768px) { 
     .gallery {
         display: inline-block;
-        border: solid black 2px;
         width: 100%;
         text-align: center;
     }
@@ -26,15 +24,14 @@
     .gallery > img {
         width: 350px;
         height: 350px;
-        margin-left: 5%;
-        margin-top: 5%;
+        margin-left: 2%;
+        margin-top: 2%;
     }    
  }
 
  @media (min-width: 992px) { 
     .gallery {
         display: inline-block;
-        border: solid black 2px;
         width: 100%;
         text-align: center;
     }
@@ -44,8 +41,14 @@
         height: 400px;
         margin-left: 5%;
         margin-right: 5%;
-        margin-top: 5%;
+        margin-top: 2%;
     }    
  }
 
-
+.btn-outline-dark {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
