@@ -1,6 +1,6 @@
 {
   "name": "client",
-  "homepage": " https://github.com/crashley1992/portfolio.github.io ",
+  "homepage": " https://github.com/portfolio.github.io ",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
