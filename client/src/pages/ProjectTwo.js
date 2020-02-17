@@ -6,7 +6,7 @@ class ProjectTwo extends Component {
         return (
         <div>
             <h1>Project Walkthrough in construction</h1>
-            <p>Link to deployed site: <a href="https://crashley1992.github.io/clicky-game/" target="_blank">Honk!</a></p>
+            <p>Link to deployed site: <a href="https://crashley1992.github.io/clicky-game/" target="_blank" rel="noopener noreferrer">Honk!</a></p>
             <Footer />
         </div>  
         )
