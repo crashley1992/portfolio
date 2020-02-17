@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import Image from 'react-bootstrap/Image';
 import './portfolio-display.css';
-import mountain from './mountain.png';
+import comic from './comic.gif';
+import goose from './clicky-game.gif';
 
 class PortfolioDisplay extends Component {
   
@@ -10,13 +11,13 @@ class PortfolioDisplay extends Component {
             <div>
                 <div className="gallery">
                 <h4 className="portfolio-title">Portfolio</h4>
-                <h6 className="project-title">Comic Hero Finder</h6>
-                    <Image src={mountain} fluid />
+                <h5 className="project-title">Comic Hero Finder</h5>
+                    <Image src={comic} fluid />
                     <button className="btn btn-outline-dark" onClick={()=> {
                         window.location.href="/portfolio-one"
                     }}> See Project Details</button>
-                <h6 className="project-title">Memory Game</h6>
-                    <Image src={mountain} fluid />
+                <h5 className="project-title">Memory Game</h5>
+                    <Image src={goose} fluid />
                     <button className="btn btn-outline-dark" onClick={()=> {
                         window.location.href="/portfolio-two"
                     }}>See Project Details</button> 
