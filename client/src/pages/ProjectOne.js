@@ -17,11 +17,7 @@ class ProjectOne extends Component {
             </div>
             <p>This app is a Comic Hero Finder. A user should be able to type a comic hero's name and infomation about them will display. Some features in the works will allow users to save and look up comics associated with a hero.</p>
             <h5><strong>In progress Features</strong></h5>
-            <p>Congifure MongoDB 
-                When a character is liked, they are saved to a list that a user can later look at.
-                Provide user login so saved characters are associated to user profile.
-                Ability to see comics associate to user.
-                Add in an api to look up video game characters.</p>
+            <p>I will be adding in MongoDB so that user information can be saved. Ideally, users should be able to save a character's info and be able to view characters that they have liked. This will involve users being able to create an account and login for future use. Additionally, I would like to make it so users can look up available comics on Amazon or other online stores for a selected character.</p>
             {/* Link to deployed site */}
             <h5>Link to deployed site: <a href="https://rocky-headland-64193.herokuapp.com/" target="_blank">https://rocky-headland-64193.herokuapp.com/</a></h5>
             <h5>Link to Github Repo: <a href="https://github.com/crashley1992/comic-hero-finder" target="_blank">https://github.com/crashley1992/comic-hero-finder</a></h5>
