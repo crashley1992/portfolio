@@ -16,7 +16,7 @@ class PortfolioDisplay extends Component {
                     <button className="btn btn-outline-dark" onClick={()=> {
                         window.location.href="/portfolio-one"
                     }}> See Project Details</button>
-                <h5 className="project-title">Memory Game</h5>
+                <h5 className="project-title">Untitled Goose Memory Game</h5>
                     <Image src={goose} fluid />
                     <button className="btn btn-outline-dark" onClick={()=> {
                         window.location.href="/portfolio-two"

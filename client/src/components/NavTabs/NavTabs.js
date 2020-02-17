@@ -15,10 +15,13 @@ const NavTabs = () => {
             <Nav>
                 <Nav.Link href="/">Home</Nav.Link>             
                 </Nav>
+                <Nav>
+                <Nav.Link href='./Ashley_Clarke.pdf' download="Ashley_Clarke.pdf">Resume</Nav.Link>             
+                </Nav>
             <Nav>
                 <NavDropdown title="Portfolio" id="basic-nav-dropdown">
                 <NavDropdown.Item href="/portfolio-one">Project One: Comic Hero Finder</NavDropdown.Item>
-                <NavDropdown.Item href="/portfolio-two">Project Two</NavDropdown.Item>
+                <NavDropdown.Item href="/portfolio-two">Project Two: Untitled Goose Memory Game</NavDropdown.Item>
                 </NavDropdown>
             </Nav>
             <div class="icon">

@@ -1,12 +1,20 @@
 import React, { Component } from 'react';
 import Image from 'react-bootstrap/Image';
 import comicWireframe from './images/comicWireframe.PNG';
-import './styles/comic-wireframe.css';
+import './styles/project-one.css';
+import comic from '../components/PortfolioDisplay/comic.gif'
+import Footer from '../components/Footer/Footer';
+import { FaGithub } from "react-icons/fa";
+
 class ProjectOne extends Component {
     render() {
         return (
             <div className="page-one">
             <h1>Summary of app</h1>
+            {/* Gif Container*/}
+            <div className="gif-container">
+            <Image className="comic-gif" src={comic} fluid />
+            </div>
             <p>This app is a Comic Hero Finder. A user should be able to type a comic hero's name and infomation about them will display. Some features in the works will allow users to save and look up comics associated with a hero.</p>
             <h5><strong>In progress Features</strong></h5>
             <p>Congifure MongoDB 
@@ -15,7 +23,8 @@ class ProjectOne extends Component {
                 Ability to see comics associate to user.
                 Add in an api to look up video game characters.</p>
             {/* Link to deployed site */}
-            <h5>Link to deployed site: <a href="https://rocky-headland-64193.herokuapp.com/" target="_blank">https://rocky-headland-64193.herokuapp.com/</a> </h5>
+            <h5>Link to deployed site: <a href="https://rocky-headland-64193.herokuapp.com/" target="_blank">https://rocky-headland-64193.herokuapp.com/</a></h5>
+            <h5>Link to Github Repo: <a href="https://github.com/crashley1992/comic-hero-finder" target="_blank">https://github.com/crashley1992/comic-hero-finder</a></h5>
             {/* Design Section */}
             <h1>Design:</h1>
             <div className="image-container">
@@ -47,6 +56,7 @@ class ProjectOne extends Component {
             <p>Flexibility! Since new features are being added to the project, MongoDB is really easy to configure and organize without having to worry about complex object-relational mapping(ORM). Additionally, there are cloud features such as MongoDB Atlas that allows for more secure storage of data.</p>
             <h5><strong>Why choose Node?</strong></h5>
             <p>Node with Express makes creating routes and using 3rd APIs easy. Use of NPM packages make it simpler to use multiple tools and modules. Additionally, an app can be built using only JavaScript, which did not require me learning another language.</p>
+            <Footer />
         </div>
         )
     }
