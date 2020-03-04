@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Image from 'react-bootstrap/Image';
 import './portfolio-display.css';
-import comic from './comic.gif';
+import comic from './random-button.gif';
 import goose from './clicky-game.gif';
 
 class PortfolioDisplay extends Component {

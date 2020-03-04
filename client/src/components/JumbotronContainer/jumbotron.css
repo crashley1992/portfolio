@@ -4,3 +4,13 @@
     background-repeat: none;
     height: 450px;
 }
+
+.welcome-header {
+    text-align: center;
+    color: grey;
+}
+
+.intro {
+    text-align: center;
+    color: grey;
+}

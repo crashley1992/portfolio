@@ -4,7 +4,7 @@ import './footer.css';
 
 const Footer = () => {
     return(
-        <div>
+        <div className="footer">
         <h1>Thanks for Stopping By!</h1>
             <div className="icon-container">
             <FaLinkedin size={45} className="social-icons"/>
