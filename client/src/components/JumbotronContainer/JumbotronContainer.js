@@ -15,11 +15,7 @@ class JumbotronContainer extends Component{
     render(){
         return (
             <Jumbotron>
-                <h2 className="welcome-header">Welcome my name is Ashley</h2>
-                <h3 className="intro">I am a </h3>
-                <h3 className="intro">Developer</h3>
-                <h3 className="intro">Professional</h3>
-                <h3 className="intro">Team Member</h3>
+                <h2 className="welcome-header">Welcome! My name is Ashley</h2>
             </Jumbotron>
         )
     }

@@ -20,7 +20,9 @@ class ProjectOne extends Component {
             <p>This app is a Comic Hero Finder. A user should be able to type a comic hero's name and information about them will display. Some features in the works will allow users to save and look up comics associated with a hero.</p>
             {/* Link to deployed site */}
             <h5>Link to deployed site: <a href="https://rocky-headland-64193.herokuapp.com/" target="_blank" rel="noopener noreferrer">https://rocky-headland-64193.herokuapp.com/</a></h5>
-            <h5>Link to Github Repo: <a href="https://github.com/crashley1992/comic-hero-finder" target="_blank" rel="noopener noreferrer">https://github.com/crashley1992/comic-hero-finder</a></h5>
+            <h5>Link to Github Repo: <a style={{textDecoration: 'none', color: 'inherit'}} href="https://github.com/crashley1992/hero-finder" target="_blank" rel="noopener noreferrer">
+                <FaGithub size={45} className="social-icons"/>
+                </a></h5>
             {/* Design Section */}
             <h1>Design:</h1>
             <div className="image-container">
