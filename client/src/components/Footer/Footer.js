@@ -7,9 +7,12 @@ const Footer = () => {
         <div className="footer">
         <h1>Thanks for Stopping By!</h1>
             <div className="icon-container">
-            <FaLinkedin size={45} className="social-icons"/>
-            <FaTwitterSquare size={45} className="social-icons"/>
-            <FaGithub size={45} className="social-icons"/>
+            <a href="https://www.linkedin.com/in/ashley-clarke-113557124/" style={{color: 'inherit'}} target="_blank" rel="noopener noreferrer">
+                <FaLinkedin size={45} className="social-icons"/></a>
+                <a href="https://twitter.com/CrashleyGames" style={{color: 'inherit'}} target="_blank" rel="noopener noreferrer">
+                <FaTwitterSquare size={45} className="social-icons"/></a>
+                <a href="https://github.com/crashley1992" style={{color: 'inherit'}} target="_blank" rel="noopener noreferrer">
+                <FaGithub size={45} className="social-icons"/></a>
             </div>
         </div>
     )

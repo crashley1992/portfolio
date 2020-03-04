@@ -19,7 +19,9 @@ class ProjectTwo extends Component {
             <h5><strong>In progress Features</strong></h5>
             <p>When I have time, I'd like to add some music and sound effects to indicate game over. This is to to help players realize when they lost.</p>
             {/* Link to deployed site */}
-            <h5>Link to deployed site: <a href="https://crashley1992.github.io/clicky-game/" target="_blank" rel="noopener noreferrer">https://crashley1992.github.io/clicky-game/</a></h5>
+            <div className="center-button">
+            <a href="https://crashley1992.github.io/clicky-game/" target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none', width: '30%'}}><button className="btn btn-outline-dark">Click Me to view Deployed Site</button></a>
+            </div>
             <h5>Link to Github Repo: <a style={{textDecoration: 'none', color: 'inherit'}} href="https://github.com/crashley1992/clicky-game" target="_blank" rel="noopener noreferrer">
                 <FaGithub size={45} className="social-icons"/>
                 </a></h5>

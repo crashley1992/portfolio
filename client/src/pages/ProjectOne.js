@@ -19,7 +19,9 @@ class ProjectOne extends Component {
             <h5><strong>In progress Features</strong></h5>
             <p>This app is a Comic Hero Finder. A user should be able to type a comic hero's name and information about them will display. Some features in the works will allow users to save and look up comics associated with a hero.</p>
             {/* Link to deployed site */}
-            <h5>Link to deployed site: <a href="https://rocky-headland-64193.herokuapp.com/" target="_blank" rel="noopener noreferrer">https://rocky-headland-64193.herokuapp.com/</a></h5>
+            <div className="center-button">
+            <a href="https://shrouded-woodland-60395.herokuapp.com/" target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none', width: "30%"}} className="btn btn-outline-dark">Click Me to view Deployed Site</a>
+            </div>
             <h5>Link to Github Repo: <a style={{textDecoration: 'none', color: 'inherit'}} href="https://github.com/crashley1992/hero-finder" target="_blank" rel="noopener noreferrer">
                 <FaGithub size={45} className="social-icons"/>
                 </a></h5>
