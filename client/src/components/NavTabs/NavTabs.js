@@ -22,6 +22,7 @@ const NavTabs = () => {
                 <NavDropdown title="Portfolio" id="basic-nav-dropdown">
                 <NavDropdown.Item href="/portfolio-one">Project One: Comic Hero Finder</NavDropdown.Item>
                 <NavDropdown.Item href="/portfolio-two">Project Two: Untitled Goose Memory Game</NavDropdown.Item>
+                <NavDropdown.Item href="/#open-source">Open Source Contributions</NavDropdown.Item>
                 </NavDropdown>
             </Nav>
             <div class="icon">

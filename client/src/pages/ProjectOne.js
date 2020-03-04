@@ -10,7 +10,7 @@ class ProjectOne extends Component {
     render() {
         return (
             <div className="page-one">
-            <h1>Summary of app</h1>
+            <h1><strong>Summary of app</strong></h1>
             {/* Gif Container*/}
             <div className="gif-container">
             <Image className="comic-gif" src={comic} fluid />
@@ -22,18 +22,18 @@ class ProjectOne extends Component {
             <div className="center-button">
             <a href="https://shrouded-woodland-60395.herokuapp.com/" target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none', width: "30%"}} className="btn btn-outline-dark">Click Me to view Deployed Site</a>
             </div>
-            <h5>Link to Github Repo: <a style={{textDecoration: 'none', color: 'inherit'}} href="https://github.com/crashley1992/hero-finder" target="_blank" rel="noopener noreferrer">
+            <h5>Click Icon to see Github Repo: <a style={{textDecoration: 'none', color: 'inherit'}} href="https://github.com/crashley1992/hero-finder" target="_blank" rel="noopener noreferrer">
                 <FaGithub size={45} className="social-icons"/>
                 </a></h5>
             {/* Design Section */}
-            <h1>Design:</h1>
+            <h1><strong>Design:</strong></h1>
             <div className="image-container">
             <Image className="comic-wireframe" src={comicWireframe} />
             </div>
             {/* Design process explanation */}
             <p>Before starting on the code I created a prototype with UXPin. This helped with fleshing out functionality ideas as well as how information and components should be rendered.</p>
             {/* Tech section */}
-            <h1>Technologies Used:</h1>
+            <h1><strong>Technologies Used:</strong></h1>
             {/* List for MERN stack */}
             <ul><strong>MERN Stack</strong>
                 <li>React</li>
@@ -49,7 +49,7 @@ class ProjectOne extends Component {
             <li>Http-proxy-middleware</li>
             </ul>
             {/* Process Section */}
-            <h1>Process</h1>
+            <h1><strong>Process</strong></h1>
             <h5><strong>Why choose React?</strong></h5>
             <p>A previous version of this project was made using jQuery. Nothing against jQuery, but it felt like code was getting repetitive in certain parts of the project such as the results display. React seemed like a better choice for scalability,readability, and overall maintenance of the project. This is especially true as new features are added.</p>
             <h5><strong>Why choose MongoDB?</strong></h5>

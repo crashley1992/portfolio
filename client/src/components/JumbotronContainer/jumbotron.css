@@ -6,10 +6,31 @@
 }
 
 .welcome-header {
+    display: none;
+}
+
+.welcome-header-md-lg-screens {
     text-align: center;
-    margin-top: 5%;
+    margin-top: 10%;
+    padding-left: 150px;
 }
 
 .intro {
     text-align: center;
 }
+
+@media (min-width: 300px) and (max-width:767.9px) {
+    .welcome-header {
+        margin-left: 58%;
+        display: block;
+        text-align: center;
+    }
+
+    .welcome-header-md-lg-screens {
+        display: none;
+    }
+
+}
+
+
+

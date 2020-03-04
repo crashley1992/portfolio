@@ -11,19 +11,22 @@ class PortfolioDisplay extends Component {
         return (
             <div>
                 <div className="gallery">
-                <h4 className="portfolio-title">Portfolio</h4>
-                <h5 className="project-title">Comic Hero Finder</h5>
+                <h3 className="portfolio-title">Portfolio</h3>
+                {/* Project 1 */}
+                <h4 className="project-title">Comic Hero Finder</h4>
                     <Image src={comic} fluid />
                     <button className="btn btn-outline-dark" onClick={()=> {
                         window.location.href="/portfolio-one"
                     }}> See Project Details</button>
-                <h5 className="project-title">Untitled Goose Memory Game</h5>
+                    {/* Project 2 */}
+                <h4 className="project-title">Untitled Goose Memory Game</h4>
                     <Image src={goose} fluid />
                     <button className="btn btn-outline-dark" onClick={()=> {
                         window.location.href="/portfolio-two"
                     }}>See Project Details</button> 
-                    <h4 className="portfolio-title">Open Source Contributions</h4>
-                <h5 className="project-title">Town Hall Project</h5>
+                    {/* Open Source Section */}
+                    <h3 className="portfolio-title" id="open-source">Open Source Contributions</h3>
+                <h4 className="project-title">Town Hall Project</h4>
                 <a style={{textDecoration: 'none', width: "30%"}} href="https://townhallproject.com/" target="_blank" rel="noopener noreferrer" className="btn btn-outline-dark">Checkout TownHall Project</a>
                 <p>Link to Github Repo: <a style={{textDecoration: 'none', color: 'inherit'}} href="https://github.com/townhallproject/townHallProject" target="_blank" rel="noopener noreferrer">
                 <FaGithub size={45} className="social-icons"/>
