@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Home from './pages/Home';
 import ProjectOne from './pages/ProjectOne';
 import ProjectTwo from './pages/ProjectTwo';
+import ProjectThree from './pages/ProjectThree';
 
 class App extends Component {
   render() {
@@ -17,6 +18,8 @@ class App extends Component {
       component={ProjectOne} />
       <Route exact path="/portfolio-two" 
       component={ProjectTwo} />
+      <Route exact path="/portfolio-three" 
+      component={ProjectThree} />
       </Router>
       </div>
     )

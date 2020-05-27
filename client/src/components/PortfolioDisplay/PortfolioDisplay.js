@@ -4,6 +4,7 @@ import { FaGithub } from "react-icons/fa";
 import './portfolio-display.css';
 import comic from './random-button.gif';
 import goose from './clicky-game.gif';
+import midi from '../../pages/images/midi-finial.gif';
 
 class PortfolioDisplay extends Component {
   
@@ -15,15 +16,27 @@ class PortfolioDisplay extends Component {
                 {/* Project 1 */}
                 <h4 className="project-title">Comic Hero Finder</h4>
                     <Image src={comic} fluid />
+                    <p className="tech-details"><strong>Tech used</strong>: React, MongoDB, Node.js, CSS, Heroku, RESTful API, CRUD API</p>
                     <button className="btn btn-outline-dark" onClick={()=> {
                         window.location.href="/portfolio-one"
                     }}> See Project Details</button>
+
                     {/* Project 2 */}
                 <h4 className="project-title">Untitled Goose Memory Game</h4>
                     <Image src={goose} fluid />
+                    <p className="tech-details"><strong>Tech used</strong>: React, CSS</p>
                     <button className="btn btn-outline-dark" onClick={()=> {
                         window.location.href="/portfolio-two"
                     }}>See Project Details</button> 
+
+                    {/* Project 3 */}
+                    <h4 className="project-title">Midi Controller</h4>
+                    <Image src={midi} fluid />
+                    <p className="tech-details"><strong>Tech used</strong>: JavaScript, CSS, Photoshop</p>
+                    <button className="btn btn-outline-dark" onClick={()=> {
+                        window.location.href="/portfolio-three"
+                    }}>See Project Details</button> 
+
                     {/* Open Source Section */}
                     <h3 className="portfolio-title" id="open-source">Open Source Contributions</h3>
                 <h4 className="project-title">Town Hall Project</h4>

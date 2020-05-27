@@ -1,5 +1,6 @@
 .page-one {
     margin-top: 5%;
+    width: 100% !important;
 }
 
 /* Sizing for Gif*/
@@ -50,7 +51,7 @@
 
 /* Sizing for Ux Pin Wireframe */
 
-@media (min-width: 300px) {   
+ @media (min-width: 300px) {   
     .comic-wireframe {
         width: 250px;
         height: 250px;
@@ -104,11 +105,13 @@
     }
 
     ul {
-        margin-right: -8%;
-    }
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 2%;
+    } 
  }
 
- .image-container {
+  .image-container {
     text-align: center;
  }
 
@@ -132,6 +135,6 @@
 
 .center-button {
     text-align: center;
-}
+}  
 
  

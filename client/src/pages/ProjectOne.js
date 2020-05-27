@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Image from 'react-bootstrap/Image';
 import comicWireframe from './images/comicWireframe.PNG';
 import './styles/project-one.css';
-import comic from '../components/PortfolioDisplay/random-button.gif'
+import comicTwo from './images/full project.gif';
 import Footer from '../components/Footer/Footer';
 import { FaGithub } from "react-icons/fa";
 
@@ -13,11 +13,11 @@ class ProjectOne extends Component {
             <h1><strong>Summary of app</strong></h1>
             {/* Gif Container*/}
             <div className="gif-container">
-            <Image className="comic-gif" src={comic} fluid />
+            <Image className="comic-gif" src={comicTwo} fluid />
             </div>
             <p></p>
             <h5><strong>In progress Features</strong></h5>
-            <p>This app is a Comic Hero Finder. A user should be able to type a comic hero's name and information about them will display. Some features in the works will allow users to save and look up comics associated with a hero.</p>
+            <p>This app is a Comic Hero Finder. A user should be able to type a comic hero's name and information about them will display. If a hero is liked they will appear on the Liked Heroes page. Some features in the works will allow users to look up comics associated with a hero. This is being incorporated using the Google Books API.</p>
             {/* Link to deployed site */}
             <div className="center-button">
             <a href="https://shrouded-woodland-60395.herokuapp.com/" target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none', width: "30%"}} className="btn btn-outline-dark">Click Me to view Deployed Site</a>
